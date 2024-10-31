@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra Energética de Quinua y Frutos Secos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="root">
+        <div id="app-wrapper">
+            <header class="navbar">
+                <div class="logo"><a href="/">Barra Energética</a></div>
+                <nav class="nav-links">
+                    <a href="#benefits">Beneficios</a>
+                    <a href="#process">Proceso</a>
+                    <a href="#contact">Contacto</a>
+                    <a href="#productos">Productos</a>
+                </nav>
+            </header>
+        
+            <div class="hero">
+                <div class="hero-content" style="background: url('images/barraMarketing.jpg')  no-repeat center center / cover; padding: 190px;">
+                    <h1>Barras de Quinua y Frutos Secos</h1>
+                    <p>Nutrición y Energía en Cada Mordisco</p>
+                    <button onclick="scrollToSection('benefits')">Descubre los Beneficios</button>
+                </div>
+            </div>
+
+            <section id="benefits" class="section">
+                <h2>Beneficios para la Salud</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <img src="images/frutosSecos.jpg" alt="Proteínas">
+                        <h3>Ricas en Proteínas</h3>
+                        <p>Aportan aminoácidos esenciales necesarios para el crecimiento y recuperación muscular.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <img src="images/Corazon.jpg" alt="Salud Cardiovascular">
+                        <h3>Salud Cardiovascular</h3>
+                        <p>Las grasas saludables de los frutos secos ayudan a mantener el corazón sano.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <img src="images/energia.jpg" alt="Fuente de Energía">
+                        <h3>Fuente de Energía</h3>
+                        <p>Perfectas para reponer energía después de una actividad física intensa.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="process" class="section">
+                <h2>Proceso de Elaboración</h2>
+                <div class="process-grid">
+                    <div class="process-step">
+                        <img src="images/frutosSecos2.jpg" alt="Ingredientes">
+                        <h3>Selección de Ingredientes</h3>
+                        <p>Seleccionamos cuidadosamente quinua y frutos secos de alta calidad, garantizando un producto saludable.</p>
+                    </div>
+                    <div class="process-step">
+                        <img src="images/ingredientes.jpg" alt="Mezcla y Horneado">
+                        <h3>Mezcla y Horneado</h3>
+                        <p>La mezcla de los ingredientes se realiza a temperaturas controladas para preservar los nutrientes.</p>
+                    </div>
+                    <div class="process-step">
+                        <img src="images/barraEmpaque.png" alt="Empaquetado">
+                        <h3>Empaque y Distribución</h3>
+                        <p>Empacamos nuestras barras energéticas de forma segura para mantener su frescura.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="productos" class="section">
+                <h2>Productos</h2>
+                <div class="products-grid">
+                    <div class="product-item">
+                        <img src="images/barraproteicas.jpg" alt="Barras de Proteína">
+                        <h3>Barras de Proteína</h3>
+                    </div>
+                    <div class="product-item">
+                        <img src="images/barraEnergia.jpg" alt="Barras de Energía">
+                        <h3>Barras de Energía</h3>
+                    </div>
+                    <div class="product-item">
+                        <img src="images/granola.jpg" alt="Granolas">
+                        <h3>Granolas</h3>
+                    </div>
+                </div>
+            </section>
+            <section id="nutrition" class="section">
+                <h2>Valores Nutricionales</h2>
+                <p>Nuestras barras energéticas están cargadas de nutrientes esenciales para mantenerte lleno de energía durante el día.</p>
+                <table class="nutrition-table">
+                    <tr>
+                        <th>Nutriente</th>
+                        <th>Valor por Barra (50g)</th>
+                    </tr>
+                    <tr>
+                        <td>Calorías</td>
+                        <td>200 kcal</td>
+                    </tr>
+                    <tr>
+                        <td>Proteínas</td>
+                        <td>8 g</td>
+                    </tr>
+                    <tr>
+                        <td>Grasas Totales</td>
+                        <td>10 g</td>
+                    </tr>
+                    <tr>
+                        <td>Fibra Dietética</td>
+                        <td>4 g</td>
+                    </tr>
+                    <tr>
+                        <td>Carbohidratos</td>
+                        <td>22 g</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="contact" class="section contact-section">
+                <h2>Contáctanos</h2>
+                <form class="contact-form">
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="email" placeholder="Correo Electrónico" required>
+                    <textarea placeholder="Mensaje" rows="5" required></textarea>
+                    <button type="submit">Enviar Mensaje</button>
+                </form>
+            </section>
+
+            <footer class="footer">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <img src="images/logo-footer.svg" alt="Barra Energética Logo">
+                        <p>Real food, real energy</p>
+                    </div>
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h5>Conócenos</h5>
+                            <ul>
+                                <li><a href="/">Inicio</a></li>
+                                <li><a href="/nosotros">Nuestra Historia</a></li>
+                                <li><a href="/tiendas">Encuéntranos</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h5>Productos</h5>
+                            <ul>
+                                <li><a href="/productos/peanut-butter">Barras de Proteína</a></li>
+                                <li><a href="/productos/choco-banana">Barras de Energía</a></li>
+                                <li><a href="/productos/granola-tradicional">Granolas</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h5>Ayuda</h5>
+                            <ul>
+                                <li><a href="/contacto">Contacto</a></li>
+                                <li><a href="/terminos">Términos y Condiciones</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-social">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="footer-bottom">
+                        <p>© 2024 Barra Energética de Quinua y Frutos Secos. Todos los derechos reservados.</p>
+                        <p>Hecho por Diego Neira</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/e96b71192b.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
